@@ -1,0 +1,28 @@
+{
+    "subjects": [
+        {
+            "name": "Tiếng Việt",
+            "score1": "200/300",
+            "confidence": "Tạm được",
+            "score2target": "250+/300"
+        },
+        {
+            "name": "Tiếng Anh",
+            "score1": "240/300",
+            "confidence": "Rất tự tin",
+            "score2target": "280+/300"
+        },
+        {
+            "name": "Toán",
+            "score1": "220/300",
+            "confidence": "Tạm ổn",
+            "score2target": "270+/300"
+        },
+        {
+            "name": "Tư duy khoa học",
+            "score1": "170/300",
+            "confidence": "Chưa ổn, cần ôn tập thêm nhiều",
+            "score2target": "240+/300"
+        }
+    ]
+}

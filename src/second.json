@@ -1,0 +1,28 @@
+{
+    "subjects": [
+        {
+            "name": "Tiếng Việt",
+            "score2target": "250+",
+            "probable": "Trung bình",
+            "improvement_plan": "Luyện thêm về đọc hiểu, chính tả và cải thiện vốn từ bằng cách đọc thêm sách & luyện đề"
+        },
+        {
+            "name": "Tiếng Anh",
+            "score2target": "280+",
+            "probable": "Cao",
+            "improvement_plan": "Giải thêm đề, xem lại từ vựng và collocations, idioms & phrasal verbs"
+        },
+        {
+            "name": "Toán",
+            "score2target": "270+",
+            "probable": "Trung bình",
+            "improvement_plan": "Tập trung ôn những kiến thức căn bản, giải thêm những dạng bài có trong đề vừa rồi"
+        },
+        {
+            "name": "Tư duy khoa học",
+            "score2target": "240+",
+            "probable": "Thấp",
+            "improvement_plan": "Ôn tập những dạng đề đã cho và tăng cường việc giải đề cho những nhóm môn học nay"
+        }
+    ]
+}

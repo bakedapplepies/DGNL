@@ -1,0 +1,205 @@
+:root {
+    --color1: rgb(43, 40, 77);
+    --color2: rgb(42, 36, 63);
+    --color3: rgb(212, 144, 160);
+    --color4: rgb(224, 145, 181);
+}
+
+body {
+    background-color: #262626;
+}
+
+img {
+    width: 50%;
+    align-self: center;
+    margin-top: 20px;
+}
+
+img.ai {
+    background-color: transparent;
+}
+
+figcaption.normal {
+    font-family: "Lora";
+    font-style: italic;
+    margin-top: 5px;
+    color: white;
+}
+
+figcaption.ai {
+    /* background-color: red; */
+    width: 100%;
+    font-family: "Phudu";
+    font-size: 20px;
+    color: white;
+}
+
+h1.heading1 {
+    font-family: "Lora";
+    font-size: 104px;
+    font-weight: 400;
+    color: white;
+    opacity: 100%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-top: 20px;
+}
+
+h1.heading2 {
+    font-family: "Anton";
+    font-size: 62px;
+    font-weight: 400;
+    color: white;
+    opacity: 50%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-bottom: -30px;
+}
+
+h1.heading3 {
+    font-family: "Sigmar";
+    font-size: 34px;
+    font-weight: 400;
+    color: white;
+    opacity: 20%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-bottom: -5px;
+}
+
+h1.heading4 {
+    font-family: "Moon Dance", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    opacity: 25%;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    border-width: 0px;
+    margin-bottom: 50px;
+}
+
+h2.paracap {
+    color: white;
+    font-family: "Lora", bold;
+    font-weight: 100;
+    font-size: 68px;
+    margin-left: 22px;
+    font-weight: 800;
+    margin-bottom: -2px;
+}
+
+h2.github {
+    color: white;
+    font-family: "Phudu", bold;
+    margin-bottom: 6px;
+}
+
+h3.author {
+    color: white;
+    font-family: "Phudu";
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 42px;
+    margin-top: -20px;
+}
+
+h3.normal {
+    color: #e2d188;
+    font-family: "Lora", bold;
+    font-weight: 100;
+    font-size: 28px;
+    margin-left: 22px;
+    font-weight: 800;
+}
+
+p.content {
+    color: white;
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 68px;
+    word-wrap: break-word;
+    max-width: 90%;
+    text-align: left;
+}
+
+a.github {
+    color: var(--color4);
+    font-family: "Playwrite IT Moderna";
+}
+
+table {
+    margin-bottom: 30px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+div.table_div {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Lora";
+}
+
+td:nth-child(even) {
+    background-color: #262626;
+}
+
+td:nth-child(odd) {
+    background-color: #262626;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    border-bottom: 2px solid #b4cfe2;
+    border-right: 2px solid #b4cfe2;
+    color: white;
+    font-style: bold;
+    font-weight: 600;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 2px solid #b4cfe2;
+}
+
+table tr td {
+    border-top: 2px solid #b4cfe2;
+}
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 0.5rem;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem;
+}
+
+div.center {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.red {
+    /* Debug purposes */
+    background-color: red;
+}
+
+.green {
+    /* Debug purposes */
+    background-color: green;
+}
+
+.blue {
+    /* Debug purposes */
+    background-color: blue;
+}

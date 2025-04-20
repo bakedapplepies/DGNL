@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Đánh giá năng lực</title>
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Moon+Dance&family=Phudu:wght@300..900&family=Playwrite+IT+Moderna:wght@100..400&family=Sigmar&display=swap"
+    rel="stylesheet">
+  <!-- Font list:
+    - Great Vibes
+    - Anton
+    - Lora
+    - Sigmar
+    - Playwrite Italia Moderna
+    - Phudu
+    - Moon Dance
+  -->
+</head>
+
+<body>
+  <!-- Local resources -->
+  <link href="styles/style.css" rel="stylesheet" />
+  <link href="src/subjects.json" rel="preload" as="fetch">
+  <script src="src/table.js" src="src/require.js"></script>
+  <main>
+    <!-- Heading here -->
+    <div style="margin-bottom: 80px;">
+      <h1 class="heading1" data-aos="fade-up">Đánh giá năng lực</h1>
+      <h3 class="author" data-aos="fade-up">
+        Authors: <br />
+        🍎 Trần Hoàng Bách 12XH1 <br />
+        🧍‍♂️ &nbsp Đinh Thiện Nhân 12XH1
+      </h3>
+    </div>
+
+    <div class="center" data-aos="fade-up">
+      <!-- 1st section -->
+      <div>
+        <h2 class="paracap">Các phần thi tôi cần cải thiện</h2>
+        <!-- table.js script will insert and fill in a table -->
+        <div id="table-div1" class="table_div"></div>
+        <img src="resources/studying.webp" alt="học_sinh" />
+        <figcaption class="normal">Nguồn: Báo Thanh Niên</figcaption>
+      </div>
+
+      <!-- 2nd section -->
+      <div>
+        <h2 class="paracap">Lý do tôi làm chưa tốt và cách cải thiện</h2>
+        <p class="content">
+          &nbsp&nbsp&nbsp&nbsp Đây chính là lần đầu tiên tôi thi bài thi Đánh Giá Năng Lực. Mặc dù cảm thấy bản thân đã ôn khá
+          kỹ lưỡng, tôi vẫn còn nhiều thứ cần cải thiện.
+        </p>
+        <img src="resources/psychiatrist.webp" alt="psychiatrist" />
+        <p class="content">
+          &nbsp&nbsp&nbsp&nbsp Đối với môn Ngữ Văn, thường tôi rất yếu môn này. Tuy vậy, tôi cảm thấy bản thân đã làm tốt hơn mọi khi.
+          Tuy nhiên, tôi vẫn cần phải làm thêm nhiều bài tập để tăng tốc, dành nhiều thời gian cho những phần
+          khác tốn thời gian hơn như môn Toán hay Tư duy khoa học.
+        </p>
+        <p class="content">
+          &nbsp&nbsp&nbsp&nbsp Tôi đã có nền tảng Tiếng Anh khá tốt, nên việc cải thiện điểm không phải là một vấn đề lớn, chỉ cần
+          làm nhiều bài tập để quen với bài thi.
+        </p>
+        <p class="content">
+          &nbsp&nbsp&nbsp&nbsp Bình thường tôi không tệ môn Toán lắm, nhưng đợt này tôi làm không được tốt như mong đợi. Bài thi tốn
+          nhiều thời gian hơn tôi tưởng tượng, nên tôi phải thật sự đẩy nhanh quá trình làm và tìm ra nhiều phương
+          pháp giải nhanh chóng hơn trên máy tính.
+        </p>
+        <p class="content">
+          &nbsp&nbsp&nbsp&nbsp Tư duy khoa học là phần tốn nhiều thời gian nhất, cũng là phần khó nhất. Cách tốt nhất để cải thiện là
+          tập trung vào những môn tôi giỏi sẵn như Lý, Hóa và tăng tốc lên thật nhiều. Làm vậy để tối đa hóa lượng
+          điểm nhận được mà không tốn quá nhiều thời gian cho các môn khác.
+        </p>
+        <img src="resources/ai_student.webp" alt="ai_student" />
+        <figcaption class="normal">Prompt: "Student suffering from studying too much" +
+          "Make it more Asian" + "Make him sleep-deprived"
+        </figcaption>
+      </div>
+
+      <!-- 3rd section -->
+      <div>
+        <h2 class="paracap">Mục tiêu và kế hoạch cải thiện</h2>
+        <div id="table-div2" class="table_div"></div>
+      </div>
+    </div>
+    <div style="margin-bottom: 50px;">
+      <h2 class="github">Github</h2>
+      <a class="github" href="https://github.com/bakedapplepies">https://github.com/bakedapplepies</a>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
